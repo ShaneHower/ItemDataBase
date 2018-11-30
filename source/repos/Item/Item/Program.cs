@@ -15,6 +15,7 @@ namespace Item
 
         public Items(int id, string name, string descr, string flvText, string nameHidden)
         {
+            // test for creating a new branch
             this.Id = id;
             this.Name = name;
             this.Descr = descr;
@@ -25,7 +26,6 @@ namespace Item
         public int GetId()
         {
             return this.Id;
-            
         }
 
         public string GetName()
